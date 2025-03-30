@@ -7,5 +7,6 @@ abstract: 'Anxiety is the most common mental problem that affects nearly 300 mil
 date: 2020-10-12
 venue: 'Proceedings of the 28th ACM International Conference on Multimedia'
 paperurl: 'https://dl.acm.org/doi/abs/10.1145/3394171.3414070'
+authors: 'Zhejing Hu, Yan Liu, Gong Chen, Shen-hua Zhong, <b>Aiwei Zhang</b>'
 citation: 'Z. Hu, Y. Liu, G. Chen, S. Zhong, A. Zhang. Make your favorite music curative: Music style transfer for anxiety reduction. Proceedings of the 28th ACM International Conference on Multimedia (2020).'
 ---
