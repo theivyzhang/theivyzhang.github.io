@@ -79,9 +79,9 @@ author:
 publication_category:
   books:
     title: 'Books'
-  manuscripts:
+  submission:
     title: 'In Submission'    
-  conferences:
+  published:
     title: 'Publications'
 
 # Site Settings
