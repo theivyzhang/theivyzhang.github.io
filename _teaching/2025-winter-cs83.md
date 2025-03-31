@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant"
+title: "Teaching Assistant, COSC 83 [Winter 2025]"
 collection: teaching
 type: "Graduate-level course"
 permalink: /teaching/2025-winter-cs83
