@@ -21,3 +21,16 @@ I have also conducted research at the [Dartmouth Reality and Robotics Lab (RLab)
 At Dartmouth, my research has been generously supported by multiple fundings, including the [Dartmouth Neukom Institute for Computational Science](https://neukom.dartmouth.edu/funding/students/neukom-scholars-program) and the [James O. Freedman Presidential Scholarship](https://students.dartmouth.edu/ugar/research/programs/presidential-scholars). I have also completed a rigorous curriculum, including seven graduate-level CS courses, and earned five academic citations for excellence in CS coursework.
 
 Outside of academics, I enjoy crocheting, running, skiing, and scuba diving, and I have been playing the cello for 13 years.
+
+------
+<br>
+
+Education
+======
+
+<div class="row"> 
+  <span style="width:20%; height:auto; display: inline-block; justify-content:center; vertical-align: middle;"><img src="/images/dartmouth_logo.png" alt="Dartmouth Icon" style="max-width:90%; height:auto; object-fit: contain; margin:auto;"></span>
+  <span style="width:75%; height:auto; display: inline-block; vertical-align: middle;font-size:large;"><b>[September 2021 - June 2025 (Expected)]</b> Senior undergraduate student, Computer Science major at <a href="https://home.dartmouth.edu/">Dartmouth College</a></span>
+</div>
+
+------
