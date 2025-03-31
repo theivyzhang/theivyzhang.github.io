@@ -8,4 +8,4 @@ date: 2025-01-01
 location: "Hanover, New Hampshire"
 ---
 
-Computer Vision, 30 students.
+Computer Vision, 39 students total (including 27 graduate students & 12 undergraduate students).
