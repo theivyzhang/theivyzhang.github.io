@@ -32,7 +32,7 @@ Research Experiences
   <span style="width:20%; height:auto; display: inline-block; justify-content:center; vertical-align: middle;"><img src="/images/dartmouth_robotics_logo.png" alt="Dartmouth RLab Icon" style="max-width:90%; height:auto; object-fit: contain; margin:auto;"></span>
   <span style="width:75%; height:auto; display: inline-block; vertical-align: middle;font-size:large;"><b>[January 2023 - December 2024]</b> Research Assistant at <a href="https://home.dartmouth.edu/">the Dartmouth Reality and Robotics Lab</a></span>. 
   <br>
-  Advised by Professor <a href="https://rlab.cs.dartmouth.edu/albertoq/">Alberto Quattrini Li</a>
+  <span style="width:75%; height:auto; display: inline-block; vertical-align: middle;font-size:large;">Advised by Professor <a href="https://rlab.cs.dartmouth.edu/albertoq/">Alberto Quattrini Li</a></span>. 
 </div>
 
 ------
