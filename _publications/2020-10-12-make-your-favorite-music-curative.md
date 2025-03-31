@@ -1,5 +1,5 @@
 ---
-title: "Make your favorite music curative: Music style transfer for anxiety reduction. "
+title: "Make your favorite music curative: Music style transfer for anxiety reduction"
 collection: publications
 category: published
 permalink: /publication/2020-10-12-make-your-favorite-music-curative
