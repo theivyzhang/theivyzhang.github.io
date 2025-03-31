@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant"
+title: "Teaching Assistant, COSC 31 [Spring 2023]"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2023-spring-cs31
