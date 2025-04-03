@@ -51,7 +51,7 @@ Industry
 
 <div class="row"> 
   <span style="width:20%; height:auto; display: inline-block; justify-content:center; vertical-align: middle;"><img src="/images/BCG_logo.png" alt="BCG HK Icon" style="max-width:90%; height:auto; object-fit: contain; margin:auto;"></span>
-  <span style="width:75%; height:auto; display: inline-block; vertical-align: middle;font-size:large;"><b>[May 2022 - August 2022]</b> Part-time Consultant Assistant Intern at <a href="https://www.bcg.com/offices/hong-kong/default">Boston Consulting Group (Hong Kong)</a></span>
+  <span style="width:75%; height:auto; display: inline-block; vertical-align: middle;font-size:large;"><b>[May 2022 - August 2022]</b> Part-time Consultant Assistant Intern, TMT & FIG groups at <a href="https://www.bcg.com/offices/hong-kong/default">Boston Consulting Group (Hong Kong)</a></span>
 </div>
 
 ------
