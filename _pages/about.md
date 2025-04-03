@@ -25,6 +25,22 @@ Outside of academics, I enjoy crocheting, running, skiing, and scuba diving, and
 ------
 <br>
 
+Updates
+======
+
+<div style="overflow-y: scroll; height:400px;">
+<ul>
+
+<li><p style="font-size:medium;"><b>[November 2024]:</b> Our work <b>AI Foundation Models for Wearable Movement Data in Mental Health Research</b> is available as pre-print now! <a href="https://arxiv.org/abs/2411.15240">ArXiv Link</a></p></li>
+
+<li><p style="font-size:medium;"><b>[April 2024]:</b> Our work <b>Multi-modal perception dataset of in-water objects for autonomous surface vehicles</b> has been accepted to the <a href="https://norlab-ulaval.github.io/workshop_field_robotics_icra2024/">Workshop on Field Robotics at 2024 IEEE International Conference on Robotics and Automation</a> and nominated for Best Paper! 🎊 </p></li>
+
+</ul>
+</div>
+
+------
+<br>
+
 Research Experiences
 ======
 
