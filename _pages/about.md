@@ -9,7 +9,7 @@ redirect_from:
 
 I am a senior undergraduate student ('25) at [Dartmouth College](https://home.dartmouth.edu/) majoring in Computer Science.
 
-I currently conduct research through a joint effort bewteen the [Jacobson Laboratory](https://geiselmed.dartmouth.edu/jacobsonlab/) at the Dartmouth Geisel School of Medicine and the [HealthX Lab](https://healthx-dartmouth.org/) in Dartmouth Computer Science. I am fortunate to be advised by Professors [Nicholas Jacobson](https://www.nicholasjacobson.com/) and [Andrew Campbell](https://www.cs.dartmouth.edu/~campbell/), and mentored by [Arvind Pillai](https://arvind1609.github.io/). My recent work focuses on analyzing wearable sensor data (such as physical activity from smartwatches) and building foundation models to extract health and behavioral insights. 
+I currently conduct research through a joint effort between the [Jacobson Laboratory](https://geiselmed.dartmouth.edu/jacobsonlab/) at the Dartmouth Geisel School of Medicine and the [HealthX Lab](https://healthx-dartmouth.org/) in Dartmouth Computer Science. I am fortunate to be advised by Professors [Nicholas Jacobson](https://www.nicholasjacobson.com/) and [Andrew Campbell](https://www.cs.dartmouth.edu/~campbell/), and mentored by [Arvind Pillai](https://arvind1609.github.io/). My recent work focuses on analyzing wearable sensor data (such as physical activity from smartwatches) and building foundation models to extract health and behavioral insights. 
 
 I’m broadly interested in the intersection of computational social science, natural language processing, and mental health, with the goal of using computational methods to better understand and improve well-being. Key research directions include:
 
