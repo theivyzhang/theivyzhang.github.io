@@ -31,9 +31,9 @@ News & Updates
 <div style="overflow-y: scroll; height:400px;">
 <ul>
 
-<li><p style="font-size:medium;"><b>[June 2025]:</b>Graduated from Dartmouth! 🎓</li>
+<li><p style="font-size:medium;"><b>[June 2025]:</b>Graduated from Dartmouth! 🎓</p></li>
 
-<li><p style="font-size:medium;"><b>[June 2025]:</b> Successfully defended my CS thesis and was awarded High Honors! Stay tuned for the preprint and code.</li>
+<li><p style="font-size:medium;"><b>[June 2025]:</b> Successfully defended my CS thesis and was awarded High Honors! Stay tuned for the preprint and code.</p></li>
 
 <li><p style="font-size:medium;"><b>[November 2024]:</b> Our work <b>AI Foundation Models for Wearable Movement Data in Mental Health Research</b> is available as pre-print now! <a href="https://arxiv.org/abs/2411.15240">ArXiv Link</a></p></li>
 
