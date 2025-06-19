@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior undergraduate student ('25) at [Dartmouth College](https://home.dartmouth.edu/) majoring in Computer Science.
+I recently obtained my Bachelor of Arts (B.A.) in Computer Science (High Honors) with a minor in Environmental Studies from [Dartmouth College](https://home.dartmouth.edu/), graduating Cum Laude.
 
-I currently conduct research through a joint effort between the [Jacobson Laboratory](https://geiselmed.dartmouth.edu/jacobsonlab/) at the Dartmouth Geisel School of Medicine and the [HealthX Lab](https://healthx-dartmouth.org/) in Dartmouth Computer Science. I am fortunate to be advised by Professors [Nicholas Jacobson](https://www.nicholasjacobson.com/) and [Andrew Campbell](https://www.cs.dartmouth.edu/~campbell/), and mentored by [Arvind Pillai](https://arvind1609.github.io/). My recent work focuses on analyzing wearable sensor data (such as physical activity from smartwatches) and building foundation models to extract health and behavioral insights. 
+At Dartmouth, I conducted research through a joint effort between the [Jacobson Laboratory](https://geiselmed.dartmouth.edu/jacobsonlab/) at the Dartmouth Geisel School of Medicine and the [HealthX Lab](https://healthx-dartmouth.org/) in Dartmouth Computer Science. I was fortunate to be advised by Professors [Nicholas Jacobson](https://www.nicholasjacobson.com/) and [Andrew Campbell](https://www.cs.dartmouth.edu/~campbell/), and mentored by [Arvind Pillai](https://arvind1609.github.io/). My recent work focused on analyzing wearable sensor data (such as physical activity from smartwatches) and building foundation models to extract health and behavioral insights. 
 
 I’m broadly interested in the intersection of computational social science, natural language processing, and mental health, with the goal of using computational methods to better understand and improve well-being. Key research directions include:
 
@@ -30,6 +30,10 @@ News & Updates
 
 <div style="overflow-y: scroll; height:400px;">
 <ul>
+
+<li><p style="font-size:medium;"><b>[June 2025]:</b>Graduated from Dartmouth! 🎓</li>
+
+<li><p style="font-size:medium;"><b>[June 2025]:</b> Successfully defended my CS thesis and was awarded High Honors! Stay tuned for the preprint and code.</li>
 
 <li><p style="font-size:medium;"><b>[November 2024]:</b> Our work <b>AI Foundation Models for Wearable Movement Data in Mental Health Research</b> is available as pre-print now! <a href="https://arxiv.org/abs/2411.15240">ArXiv Link</a></p></li>
 
