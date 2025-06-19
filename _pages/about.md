@@ -28,7 +28,7 @@ Outside of academics, I enjoy crocheting, running, skiing, and scuba diving, and
 News & Updates
 ======
 
-<div style="overflow-y: scroll; height:400px;">
+<div style="overflow-y: scroll; height:300px;">
 <ul>
 
 <li><p style="font-size:medium;"><b>[June 2025]:</b>Graduated from Dartmouth! 🎓</p></li>
