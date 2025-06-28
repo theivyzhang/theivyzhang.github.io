@@ -29,6 +29,16 @@ Outside of academics, I enjoy crocheting, running, skiing, and scuba diving, and
 Research Experiences
 ======
 
+------
+
+<div class="row"> 
+  <span style="width:20%; height:auto; display: inline-block; justify-content:center; vertical-align: middle;"><img src="/images/dartmouth_jacobson_lab_icon.png" alt="Dartmouth Jacobson Lab Icon" style="max-width:90%; height:auto; object-fit: contain; margin:auto;"></span>
+  <span style="width:75%; height:auto; display: inline-block; vertical-align: middle;font-size:large;"><b>[March 2025 - Present]</b> Research Assistant at <a href="https://geiselmed.dartmouth.edu/jacobsonlab/">the HealthX Lab @ Dartmouth College</a>
+  <br> Advised by Professor <a href="https://www.cs.dartmouth.edu/~campbell/">Andrew T. Campbell</a></span> and mentored by PhD student <a href="https://arvindpillai.io/">Arvind Pillai</a>.
+</div>
+
+------
+
 <div class="row"> 
   <span style="width:20%; height:auto; display: inline-block; justify-content:center; vertical-align: middle;"><img src="/images/dartmouth_jacobson_lab_icon.png" alt="Dartmouth Jacobson Lab Icon" style="max-width:90%; height:auto; object-fit: contain; margin:auto;"></span>
   <span style="width:75%; height:auto; display: inline-block; vertical-align: middle;font-size:large;"><b>[April 2024 - Present]</b> Research Assistant at <a href="https://geiselmed.dartmouth.edu/jacobsonlab/">the Jacobson Lab @ Dartmouth Geisel School of Medicine</a>
@@ -64,7 +74,7 @@ Education
 
 <div class="row"> 
   <span style="width:20%; height:auto; display: inline-block; justify-content:center; vertical-align: middle;"><img src="/images/dartmouth_logo.png" alt="Dartmouth Icon" style="max-width:90%; height:auto; object-fit: contain; margin:auto;"></span>
-  <span style="width:75%; height:auto; display: inline-block; vertical-align: middle;font-size:large;"><b>[September 2021 - June 2025 (Expected)]</b> Senior undergraduate student, Computer Science major at <a href="https://home.dartmouth.edu/">Dartmouth College</a></span>
+  <span style="width:75%; height:auto; display: inline-block; vertical-align: middle;font-size:large;"><b>[September 2021 - June 2025]</b> Senior undergraduate student, Computer Science major at <a href="https://home.dartmouth.edu/">Dartmouth College</a></span>
 </div>
 
 ------
