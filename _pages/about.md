@@ -34,7 +34,7 @@ Research Experiences
 <div class="row"> 
   <span style="width:20%; height:auto; display: inline-block; justify-content:center; vertical-align: middle;"><img src="/images/healthX.jpg" alt="Dartmouth Jacobson Lab Icon" style="max-width:90%; height:auto; object-fit: contain; margin:auto;"></span>
   <span style="width:75%; height:auto; display: inline-block; vertical-align: middle;font-size:large;"><b>[March 2025 - Present]</b> Research Assistant at <a href="https://geiselmed.dartmouth.edu/jacobsonlab/">the HealthX Lab @ Dartmouth College</a>
-  <br> Advised by Professor <a href="https://www.cs.dartmouth.edu/~campbell/">Andrew T. Campbell</a></span> and mentored by PhD student <a href="https://arvindpillai.io/">Arvind Pillai</a>.
+  <br> Advised by Professor <a href="https://www.cs.dartmouth.edu/~campbell/">Andrew T. Campbell</a> and mentored by PhD student <a href="https://arvindpillai.io/">Arvind Pillai</a></span>.
 </div>
 
 ------
