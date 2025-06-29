@@ -9,13 +9,7 @@ redirect_from:
 
 I recently obtained my Bachelor of Arts (B.A.) in Computer Science (with High Honors) with a minor in Environmental Studies from [Dartmouth College](https://home.dartmouth.edu/), graduating Cum Laude.
 
-At Dartmouth, I conducted research through a joint effort between the [Jacobson Laboratory](https://geiselmed.dartmouth.edu/jacobsonlab/) at the Dartmouth Geisel School of Medicine and the [HealthX Lab](https://healthx-dartmouth.org/) in Dartmouth Computer Science. I was fortunate to be advised by Professors [Nicholas Jacobson](https://www.nicholasjacobson.com/) and [Andrew Campbell](https://www.cs.dartmouth.edu/~campbell/), and mentored by [Arvind Pillai](https://arvind1609.github.io/). My recent work focused on analyzing wearable sensor data (such as physical activity from smartwatches) and building foundation models to extract health and behavioral insights. 
-
-I’m broadly interested in the intersection of computational social science, natural language processing, and mental health, with the goal of using computational methods to better understand and improve well-being. Key research directions include:
-
-  - Aligning sensor data and human language for mental health and social computing applications
-  - Scalable methods for digital phenotyping and youth mental health assessment
-  - Representation learning for interpretable and personalized behavioral modeling
+At Dartmouth, I conducted research through a joint effort between the [Jacobson Laboratory](https://geiselmed.dartmouth.edu/jacobsonlab/) at the Dartmouth Geisel School of Medicine and the [HealthX Lab](https://healthx-dartmouth.org/) in Dartmouth Computer Science. I was fortunate to be advised by Professors [Nicholas Jacobson](https://www.nicholasjacobson.com/) and [Andrew Campbell](https://www.cs.dartmouth.edu/~campbell/), and mentored by [Arvind Pillai](https://arvind1609.github.io/). 
 
 Moving forward, I’m especially excited about using social computing and machine learning to study real-world behavioral patterns, including applications in **youth mental health**, **digital well-being**, and **community-centered mental health support**.
 
@@ -33,7 +27,7 @@ Research Experiences
 
 <div class="row"> 
   <span style="width:20%; height:auto; display: inline-block; justify-content:center; vertical-align: middle;"><img src="/images/healthX.jpg" alt="Dartmouth Jacobson Lab Icon" style="max-width:90%; height:auto; object-fit: contain; margin:auto;"></span>
-  <span style="width:75%; height:auto; display: inline-block; vertical-align: middle;font-size:large;"><b>[March 2025 - Present]</b> Research Assistant at <a href="https://geiselmed.dartmouth.edu/jacobsonlab/">the HealthX Lab @ Dartmouth College</a>
+  <span style="width:75%; height:auto; display: inline-block; vertical-align: middle;font-size:large;"><b>[March 2025 - Present]</b> Research Assistant at <a href="https://healthx-dartmouth.org/">the HealthX Lab @ Dartmouth College</a>
   <br> Advised by Professor <a href="https://www.cs.dartmouth.edu/~campbell/">Andrew T. Campbell</a> and mentored by PhD student <a href="https://arvindpillai.io/">Arvind Pillai</a></span>.
 </div>
 
