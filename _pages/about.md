@@ -16,7 +16,6 @@ Outside of academics, I enjoy crocheting, running, baking, skiing, and scuba div
 
 ------
 <br>
-------
 
 Updates
 ======
@@ -24,13 +23,13 @@ Updates
 <div style="overflow-y: scroll; height:200px;">
 <ul>
 
-<li><p style="font-size:medium;"><b>[August 2025]:</b>Started school as a CS PhD student at the SocWeb Lab at Georgia Tech! Go Jackets! 🐝🥳 </p></li>
+<li><p style="font-size:medium;"><b>[August 2025]:</b>Started school as a CS PhD student at the SocWeb Lab at Georgia Tech! Go Jackets! 🐝 🥳 </p></li>
 
-<li><p style="font-size:medium;"><b>[July 2025]:</b> Our work <b>SeePerSea</b>, which I collaborated in my earlier undergraduate years at Dartmouth, has been accepted to IEEE Transactions on Field Robotics 2025</a> 🥳 <a href="https://seepersea.github.io/">Website Link</a></p></li>
+<li><p style="font-size:medium;"><b>[July 2025]:</b> Our work <b>SeePerSea</b>, which I collaborated in my earlier undergraduate years at Dartmouth, has been accepted to IEEE Transactions on Field Robotics 2025 🥳 <a href="https://seepersea.github.io/">Website Link</a></p></li>
 
-<li><p style="font-size:medium;"><b>[June 2025]:</b> Graduated from Dartmouth with a Major in Computer Science and a minor in Environmental Studies! 🌲🎓 "vox clamantis in deserto" 💚</p></li>
+<li><p style="font-size:medium;"><b>[June 2025]:</b> Graduated from Dartmouth with a Major in Computer Science and a minor in Environmental Studies! 🌲 🎓 <em>"vox clamantis in deserto" 💚</em></p></li>
 
-<li><p style="font-size:medium;"><b>[June 2025]:</b> Successfully defended my undergraduate thesis in CS at Dartmouth! <b>MotionTeller: Multi-modal Integration of Wearable Time-Series with LLMs for Health and Behavioral Understanding</b>, has been awarded High Honors! Yay! </a> 🥳 Now in review at the Dartmouth Digital Commons</p></li>
+<li><p style="font-size:medium;"><b>[June 2025]:</b> Successfully defended my undergraduate thesis in CS at Dartmouth! <b>MotionTeller: Multi-modal Integration of Wearable Time-Series with LLMs for Health and Behavioral Understanding</b>, has been awarded High Honors! Yay! 🥳 Now in review at the Dartmouth Digital Commons</p></li>
 
 </ul>
 </div>
