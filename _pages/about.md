@@ -31,6 +31,8 @@ Updates
 
 <li><p style="font-size:medium;"><b>[June 2025]:</b> Successfully defended my undergraduate thesis in CS at Dartmouth! <b>MotionTeller: Multi-modal Integration of Wearable Time-Series with LLMs for Health and Behavioral Understanding</b>, has been awarded High Honors! Yay! 🥳 Now in review at the Dartmouth Digital Commons</p></li>
 
+<li><p style="font-size:medium;"><b>[April 2025]:</b> I'll be joining Georgia Tech as a CS PhD student in Fall 2025! 🎉 💛</p></li>
+
 <li><p style="font-size:medium;"><b>[November 2024]:</b> Our work, <b>Foundation Models for Wearable Movement Data in Mental Health Research</b>, is now available as a preprint on <a href="https://arxiv.org/abs/2411.15240">ArXiv</a>! Our model is the first foundation model designed specifically for actigraphy, which is publicly available - pretrained weights, standardized preprocessing scripts, and full model code are released to <a href="https://github.com/njacobsonlab/Pretrained-Actigraphy-Transformer/">GitHub</a></p></li>
 
 </ul>
