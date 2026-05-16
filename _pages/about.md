@@ -23,6 +23,8 @@ Updates
 <div style="overflow-y: scroll; height:200px;">
 <ul>
 
+<li><p style="font-size:medium;"><b>[May 2026]:</b>Our work <b>A Foundation Model for Wearable Movement Data in Mental Health Research</b> has been accepted to <a href="https://www.embs.org/jbhi/">IEEE Journal of Biomedical and Health Informatics (JBHI)</a>! 🥳 🎉</p></li>
+
 <li><p style="font-size:medium;"><b>[August 2025]:</b> Started school as a CS PhD student at the SocWeb Lab at Georgia Tech! Go Jackets! 🐝 🥳 </p></li>
 
 <li><p style="font-size:medium;"><b>[July 2025]:</b> Our work <b>SeePerSea</b>, which I collaborated in my earlier undergraduate years at Dartmouth, has been accepted to IEEE Transactions on Field Robotics 2025 🥳 <a href="https://seepersea.github.io/">Website Link</a></p></li>
@@ -33,7 +35,7 @@ Updates
 
 <li><p style="font-size:medium;"><b>[April 2025]:</b> I'll be joining Georgia Tech as a CS PhD student in Fall 2025! 🎉 💛</p></li>
 
-<li><p style="font-size:medium;"><b>[November 2024]:</b> Our work, <b>Foundation Models for Wearable Movement Data in Mental Health Research</b>, is now available as a preprint on <a href="https://arxiv.org/abs/2411.15240">ArXiv</a>! Our model is the first foundation model designed specifically for actigraphy, which is publicly available - pretrained weights, standardized preprocessing scripts, and full model code are released to <a href="https://github.com/njacobsonlab/Pretrained-Actigraphy-Transformer/">GitHub</a></p></li>
+<li><p style="font-size:medium;"><b>[November 2024]:</b> Our work, <b>A Foundation Model for Wearable Movement Data in Mental Health Research</b>, is now available as a preprint on <a href="https://arxiv.org/abs/2411.15240">ArXiv</a>! Our model is the first foundation model designed specifically for actigraphy, which is publicly available - pretrained weights, standardized preprocessing scripts, and full model code are released to <a href="https://github.com/njacobsonlab/Pretrained-Actigraphy-Transformer/">GitHub</a></p></li>
 
 </ul>
 </div>
