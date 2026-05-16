@@ -23,7 +23,7 @@ Updates
 <div style="overflow-y: scroll; height:200px;">
 <ul>
 
-<li><p style="font-size:medium;"><b>[May 2026]:</b>Our work <b>A Foundation Model for Wearable Movement Data in Mental Health Research</b> has been accepted to <a href="https://www.embs.org/jbhi/">IEEE Journal of Biomedical and Health Informatics (JBHI)</a>! 🥳 🎉</p></li>
+<li><p style="font-size:medium;"><b>[May 2026]:</b> Our work <b>A Foundation Model for Wearable Movement Data in Mental Health Research</b> has been accepted to <a href="https://www.embs.org/jbhi/">IEEE Journal of Biomedical and Health Informatics (JBHI)</a>! 🥳 🎉</p></li>
 
 <li><p style="font-size:medium;"><b>[August 2025]:</b> Started school as a CS PhD student at the SocWeb Lab at Georgia Tech! Go Jackets! 🐝 🥳 </p></li>
 
