@@ -20,7 +20,7 @@ Outside of academics, I enjoy crocheting, running, baking, skiing, and scuba div
 Updates
 ======
 
-<div style="overflow-y: scroll; height:250px;">
+<div style="overflow-y: scroll; height:300px;">
 <ul>
 
 <li><p style="font-size:medium;"><b>[May 2026]:</b> Our work <b>A Foundation Model for Wearable Movement Data in Mental Health Research</b> has been accepted to <a href="https://www.embs.org/jbhi/">IEEE Journal of Biomedical and Health Informatics (JBHI)</a>! 🥳 🎉</p></li>
