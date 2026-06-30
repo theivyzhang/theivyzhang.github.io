@@ -6,11 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a first-year CS PhD student in the School of Interactive Computing at Georgia Tech, where I'm advised by Professor [Munmun De Choudhury](http://www.munmund.net/index.html) at the [Social Dynamics and Wellbeing Lab](https://socweb.cc.gatech.edu/).
+I am a first-year CS PhD student in the School of Interactive Computing at Georgia Tech, where I'm advised by Professor [Munmun De Choudhury](http://www.munmund.net/index.html). I obtained my Bachelor of Arts (B.A.)'s degree in Computer Science (with High Honors), where I was fortunate to be advised by Professors [Nicholas Jacobson](https://www.nicholasjacobson.com/) and [Andrew Campbell](https://www.cs.dartmouth.edu/~campbell/).
 
-I recently obtained my Bachelor of Arts (B.A.) in Computer Science (with High Honors) with a minor in Environmental Studies from [Dartmouth College](https://home.dartmouth.edu/), graduating Cum Laude. At Dartmouth, I conducted research through a joint effort between the [Jacobson Laboratory](https://geiselmed.dartmouth.edu/jacobsonlab/) at the Dartmouth Geisel School of Medicine and the [HealthX Lab](https://healthx-dartmouth.org/) in Dartmouth Computer Science. I was fortunate to be advised by Professors [Nicholas Jacobson](https://www.nicholasjacobson.com/) and [Andrew Campbell](https://www.cs.dartmouth.edu/~campbell/), and mentored by [Arvind Pillai](https://arvind1609.github.io/). 
-
-Moving forward, I’m especially excited about using social computing and machine learning to study real-world behavioral patterns, including applications in **youth mental health**, **digital well-being**, and **community-centered mental health support**.
+I'm fascinated that human health is recorded in radically different languages: the continuous physiological signals streaming off wearables, the dense clinical shorthand of electronic health records, and the everyday words people use to describe how they're doing. I build **foundation models** and **agentic systems** that can read across these sources, and I care most about the step that usually gets skipped — turning models that score well on benchmarks into tools that actually hold up in a clinic and in a person's daily life. My aim is practical, human-centered AI for healthcare, with particular focuses on clinical decision making, human behavioral understanding, as well as mental health and wellbeing.
 
 Outside of academics, I enjoy crocheting, running, baking, skiing, and scuba diving, and I have been playing the cello for 13 years.
 
