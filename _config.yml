@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Aiwei Zhang's Homepage"
+title                    : "Aiwei Ivy Zhang's Homepage"
 title_separator          : "-"
-name                     : &name "Aiwei Zhang (Ivy)"
+name                     : &name "Aiwei Ivy Zhang"
 description              : &description "CS Undergrad @ Dartmouth College"
 url                      : https://theivyzhang.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,7 +23,7 @@ repository               : "theivyzhang/theivyzhang.github.io"
 author:
   # Biographic information
   avatar           : "IMG_2804.jpg"
-  name             : "Aiwei Zhang"
+  name             : "Aiwei Ivy Zhang"
   pronouns         : # example: "she/her"  
   bio              : "CS researcher interested in computational sociel science, natural language processing and applications in healthcare"
   location         : "Atlanta, GA"
