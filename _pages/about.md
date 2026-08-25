@@ -31,7 +31,7 @@ html[data-theme="dark"] .seeking-box {
 
 <div class="seeking-box" markdown="1">
 ✨ **I am actively seeking Summer 2027 research internship opportunities in industry.**
-If you think my interests in foundation models, longitudinal health data, and human-centered AI
+If you think my interests in foundation models, LLMs, longitudinal health data, and human-centered AI
 could be a good fit for your team, I would love to connect — please feel free to reach out at
 [azhang677@gatech.edu](mailto:azhang677@gatech.edu).
 </div>
