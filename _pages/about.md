@@ -67,39 +67,171 @@ Updates
 ------
 <br>
 
+Selected Publications
+======
+
+<style>
+.pub-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.4em;
+  padding: 1.4em 0;
+}
+.pub-thumb {
+  flex: 0 0 22%;
+  max-width: 22%;
+}
+.pub-thumb img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid var(--global-border-color);
+}
+.pub-body {
+  flex: 1 1 auto;
+  font-size: medium;
+  line-height: 1.5;
+}
+.pub-title {
+  font-weight: 700;
+  margin: 0 0 0.25em;
+}
+.pub-authors { margin: 0 0 0.2em; }
+.pub-me {
+  color: #1c3f94;
+  font-weight: 700;
+}
+html[data-theme="dark"] .pub-me { color: #8fb4ff; }
+.pub-venue {
+  font-style: italic;
+  color: #6b4423;
+  margin: 0;
+}
+html[data-theme="dark"] .pub-venue { color: #c9a17a; }
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-top: 0.8em;
+}
+.pub-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  padding: 0.35em 0.8em;
+  font-size: 0.85em;
+  font-weight: 600;
+  line-height: 1.4;
+  text-decoration: none !important;
+  color: var(--global-text-color) !important;
+  background: var(--global-bg-color);
+  border: 1px solid #b8bcc2;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18), 0 1px 1px rgba(0, 0, 0, 0.10);
+  transition: all 0.15s ease-in-out;
+}
+html[data-theme="dark"] .pub-btn {
+  border-color: #8b9199;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45), 0 1px 1px rgba(0, 0, 0, 0.30);
+}
+.pub-btn:hover {
+  border-color: var(--global-link-color);
+  color: var(--global-link-color) !important;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.22), 0 1px 2px rgba(0, 0, 0, 0.14);
+  transform: translateY(-1px);
+}
+.pub-btn i { font-size: 0.95em; }
+
+/* Research Experiences / Industry / Education rows —
+   same column widths and outer edges as .pub-item above */
+.row {
+  display: flex;
+  align-items: center;
+  gap: 1.4em;
+  padding: 0.4em 0;
+}
+.row-logo {
+  flex: 0 0 22%;
+  max-width: 22%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row-logo img {
+  max-width: 90%;
+  height: auto;
+  object-fit: contain;
+}
+.row-text {
+  flex: 1 1 auto;
+  font-size: large;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 600px) {
+  .pub-item { flex-direction: column; gap: 0.9em; }
+  .pub-thumb { flex: 0 0 auto; max-width: 60%; }
+  .row { flex-direction: column; align-items: flex-start; gap: 0.8em; }
+  .row-logo { flex: 0 0 auto; max-width: 45%; justify-content: flex-start; }
+}
+</style>
+
+------
+
+<div class="pub-item">
+  <div class="pub-thumb">
+    <img src="/images/pub_icons/PAT_Icon.png" alt="PAT model architecture: masked autoencoder pretraining and finetuning">
+  </div>
+  <div class="pub-body">
+    <p class="pub-title">A Foundation Model for Wearable Movement Data in Mental Health Research</p>
+    <p class="pub-authors">Franklin Y. Ruan*, <span class="pub-me">Aiwei Zhang*</span>, Jenny Y. Oh, SouYoung Jin, Nicholas C. Jacobson <br> (* Equal Contribution)</p>
+    <p class="pub-venue">IEEE Journal of Biomedical and Health Informatics (JBHI), 2026</p>
+    <div class="pub-links">
+      <a class="pub-btn" href="https://arxiv.org/abs/2411.15240"><i class="fas fa-file-lines"></i> Paper</a>
+      <a class="pub-btn" href="https://arxiv.org/abs/2411.15240"><i class="fas fa-globe"></i> Website</a>
+      <a class="pub-btn" href="https://github.com/njacobsonlab/Pretrained-Actigraphy-Transformer/"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+------
+
+<br>
+
 Research Experiences
 ======
 
 ------
 
-<div class="row"> 
-  <span style="width:20%; height:auto; display: inline-block; justify-content:center; vertical-align: middle;"><img src="/images/gt-logo.png" alt="Georgia Tech logo" style="max-width:90%; height:auto; object-fit: contain; margin:auto;"></span>
-  <span style="width:75%; height:auto; display: inline-block; vertical-align: middle;font-size:large;"><b>[August 2025 - Present]</b> Graduate Research Assistant at <a href="https://socweb.cc.gatech.edu/">the Social Dynamics and Wellbeing Lab @ Georgia Tech</a>
-  <br> Advised by Professor <a href="https://www.cs.dartmouth.edu/~campbell/">Munmun De Choudhury</a></span>.
+<div class="row">
+  <span class="row-logo"><img src="/images/gt-logo.png" alt="Georgia Tech logo"></span>
+  <span class="row-text"><b>[August 2025 - Present]</b> Graduate Research Assistant at <a href="https://socweb.cc.gatech.edu/">the Social Dynamics and Wellbeing Lab @ Georgia Tech</a>
+  <br> Advised by Professor <a href="https://www.cs.dartmouth.edu/~campbell/">Munmun De Choudhury</a>.</span>
 </div>
 
 ------
 
-<div class="row"> 
-  <span style="width:20%; height:auto; display: inline-block; justify-content:center; vertical-align: middle;"><img src="/images/dartmouth_logo.png" alt="Dartmouth College logo" style="max-width:90%; height:auto; object-fit: contain; margin:auto;"></span>
-  <span style="width:75%; height:auto; display: inline-block; vertical-align: middle;font-size:large;"><b>[March 2025 - August 2025]</b> Research Assistant at <a href="https://healthx-dartmouth.org/">the HealthX Lab @ Dartmouth College</a>
-  <br> Advised by Professor <a href="https://www.cs.dartmouth.edu/~campbell/">Andrew T. Campbell</a> and mentored by PhD student <a href="https://arvindpillai.io/">Arvind Pillai</a></span>.
+<div class="row">
+  <span class="row-logo"><img src="/images/dartmouth_logo.png" alt="Dartmouth College logo"></span>
+  <span class="row-text"><b>[March 2025 - August 2025]</b> Research Assistant at <a href="https://healthx-dartmouth.org/">the HealthX Lab @ Dartmouth College</a>
+  <br> Advised by Professor <a href="https://www.cs.dartmouth.edu/~campbell/">Andrew T. Campbell</a> and mentored by PhD student <a href="https://arvindpillai.io/">Arvind Pillai</a>.</span>
 </div>
 
 ------
 
-<div class="row"> 
-  <span style="width:20%; height:auto; display: inline-block; justify-content:center; vertical-align: middle;"><img src="/images/dartmouth_logo.png" alt="Dartmouth College logo" style="max-width:90%; height:auto; object-fit: contain; margin:auto;"></span>
-  <span style="width:75%; height:auto; display: inline-block; vertical-align: middle;font-size:large;"><b>[April 2024 - August 2025]</b> Research Assistant at <a href="https://geiselmed.dartmouth.edu/jacobsonlab/">the Jacobson Lab @ Dartmouth Geisel School of Medicine</a>
-  <br> Advised by Professor <a href="http://nicholasjacobson.com/">Nicholas C. Jacobson</a></span>.
+<div class="row">
+  <span class="row-logo"><img src="/images/dartmouth_logo.png" alt="Dartmouth College logo"></span>
+  <span class="row-text"><b>[April 2024 - August 2025]</b> Research Assistant at <a href="https://geiselmed.dartmouth.edu/jacobsonlab/">the Jacobson Lab @ Dartmouth Geisel School of Medicine</a>
+  <br> Advised by Professor <a href="http://nicholasjacobson.com/">Nicholas C. Jacobson</a>.</span>
 </div>
 
 ------
 
-<div class="row"> 
-  <span style="width:20%; height:auto; display: inline-block; justify-content:center; vertical-align: middle;"><img src="/images/dartmouth_logo.png" alt="Dartmouth College logo" style="max-width:90%; height:auto; object-fit: contain; margin:auto;"></span>
-  <span style="width:75%; height:auto; display: inline-block; vertical-align: middle;font-size:large;"><b>[January 2023 - June 2024]</b> Research Assistant at <a href="https://home.dartmouth.edu/">the Dartmouth Reality and Robotics Lab</a>
-  <br> Advised by Professor <a href="https://rlab.cs.dartmouth.edu/albertoq/">Alberto Quattrini Li</a></span>.
+<div class="row">
+  <span class="row-logo"><img src="/images/dartmouth_logo.png" alt="Dartmouth College logo"></span>
+  <span class="row-text"><b>[January 2023 - June 2024]</b> Research Assistant at <a href="https://home.dartmouth.edu/">the Dartmouth Reality and Robotics Lab</a>
+  <br> Advised by Professor <a href="https://rlab.cs.dartmouth.edu/albertoq/">Alberto Quattrini Li</a>.</span>
 </div>
 
 ------
@@ -109,9 +241,9 @@ Research Experiences
 Industry
 ======
 
-<div class="row"> 
-  <span style="width:20%; height:auto; display: inline-block; justify-content:center; vertical-align: middle;"><img src="/images/BCG_logo.png" alt="BCG HK Icon" style="max-width:90%; height:auto; object-fit: contain; margin:auto;"></span>
-  <span style="width:75%; height:auto; display: inline-block; vertical-align: middle;font-size:large;"><b>[May 2022 - August 2022]</b> Consultant Intern, TMT & FIG groups at <a href="https://www.bcg.com/offices/hong-kong/default">Boston Consulting Group (Hong Kong)</a></span>
+<div class="row">
+  <span class="row-logo"><img src="/images/BCG_logo.png" alt="BCG HK Icon"></span>
+  <span class="row-text"><b>[May 2022 - August 2022]</b> Consultant Intern, TMT & FIG groups at <a href="https://www.bcg.com/offices/hong-kong/default">Boston Consulting Group (Hong Kong)</a></span>
 </div>
 
 ------
@@ -123,16 +255,16 @@ Education
 
 ------
 
-<div class="row"> 
-  <span style="width:20%; height:auto; display: inline-block; justify-content:center; vertical-align: middle;"><img src="/images/gt-logo.png" alt="Georgia Tech logo" style="max-width:90%; height:auto; object-fit: contain; margin:auto;"></span>
-  <span style="width:75%; height:auto; display: inline-block; vertical-align: middle;font-size:large;"><b>[August 2025 - Present]</b> Computer Science PhD Student at <a href="https://www.ic.gatech.edu/">the School of Interactive Computing, Georgia Institute of Technology</a></span>
+<div class="row">
+  <span class="row-logo"><img src="/images/gt-logo.png" alt="Georgia Tech logo"></span>
+  <span class="row-text"><b>[August 2025 - Present]</b> Computer Science PhD Student at <a href="https://www.ic.gatech.edu/">the School of Interactive Computing, Georgia Institute of Technology</a></span>
 </div>
 
 ------
 
-<div class="row"> 
-  <span style="width:20%; height:auto; display: inline-block; justify-content:center; vertical-align: middle;"><img src="/images/dartmouth_logo.png" alt="Dartmouth Icon" style="max-width:90%; height:auto; object-fit: contain; margin:auto;"></span>
-  <span style="width:75%; height:auto; display: inline-block; vertical-align: middle;font-size:large;"><b>[September 2021 - June 2025]</b> Undergraduate student, Computer Science major at <a href="https://home.dartmouth.edu/">Dartmouth College</a></span>
+<div class="row">
+  <span class="row-logo"><img src="/images/dartmouth_logo.png" alt="Dartmouth Icon"></span>
+  <span class="row-text"><b>[September 2021 - June 2025]</b> Undergraduate student, Computer Science major at <a href="https://home.dartmouth.edu/">Dartmouth College</a></span>
 </div>
 
 ------
