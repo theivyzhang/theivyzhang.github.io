@@ -39,12 +39,11 @@ could be a good fit for your team, I would love to connect — please feel free 
 Outside of research, I enjoy a myriad of hobbies spanning sports (running, pilates/yoga, climbing, skiing, and hiking), creative arts (self-taught water-coloring and crocheting), and music (I am a classically trained cellist since the age of 8).
 
 ------
-<br>
 
 Updates
 ======
 
-<div style="overflow-y: scroll; height:300px;">
+<div style="overflow-y: scroll; height:200px;">
 <ul>
 
 <li><p style="font-size:medium;"><b>[May 2026]:</b> Our work <b>A Foundation Model for Wearable Movement Data in Mental Health Research</b> has been accepted to <a href="https://www.embs.org/jbhi/">IEEE Journal of Biomedical and Health Informatics (JBHI)</a>! 🥳 🎉</p></li>
@@ -65,7 +64,6 @@ Updates
 </div>
 
 ------
-<br>
 
 Selected Publications
 ======
@@ -143,6 +141,15 @@ html[data-theme="dark"] .pub-btn {
 }
 .pub-btn i { font-size: 0.95em; }
 
+/* Tighter vertical rhythm between sections */
+.page__content h1 {
+  margin-top: 1.8em;
+  margin-bottom: 0.4em;
+}
+.page__content hr {
+  margin: 0.85em 0;
+}
+
 /* Research Experiences / Industry / Education rows —
    same column widths and outer edges as .pub-item above */
 .row {
@@ -197,8 +204,6 @@ html[data-theme="dark"] .pub-btn {
 
 ------
 
-<br>
-
 Research Experiences
 ======
 
@@ -236,10 +241,10 @@ Research Experiences
 
 ------
 
-<br>
-
 Industry
 ======
+
+------
 
 <div class="row">
   <span class="row-logo"><img src="/images/BCG_logo.png" alt="BCG HK Icon"></span>
@@ -247,8 +252,6 @@ Industry
 </div>
 
 ------
-
-<br>
 
 Education
 ======
