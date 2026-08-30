@@ -196,7 +196,7 @@ html[data-theme="dark"] .pub-btn {
     <p class="pub-venue">IEEE Journal of Biomedical and Health Informatics (JBHI), 2026</p>
     <div class="pub-links">
       <a class="pub-btn" href="https://arxiv.org/abs/2411.15240"><i class="fas fa-file-lines"></i> Paper</a>
-      <a class="pub-btn" href="https://arxiv.org/abs/2411.15240"><i class="fas fa-globe"></i> Website</a>
+      <a class="pub-btn" href="https://theivyzhang.github.io/PAT-website/"><i class="fas fa-globe"></i> Website</a>
       <a class="pub-btn" href="https://github.com/njacobsonlab/Pretrained-Actigraphy-Transformer/"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
