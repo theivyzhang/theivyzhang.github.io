@@ -1,0 +1,57 @@
+{% comment %}
+  Gallery prototype 4 — "Passport".
+  Square thumbnails in one even grid per hobby; the series become filter pills.
+  Scales furthest before the page gets long.
+{% endcomment %}
+{% assign misc_files = site.static_files | where_exp: "f", "f.path contains '/images/misc/'" %}
+
+{% for gallery in site.data.misc.galleries %}
+  {% assign gid = 'pp-' | append: gallery.key %}
+  <div class="misc-hobbyblock">
+    <h3 class="misc-hobbyblock__title">{{ gallery.title }}</h3>
+    {% if gallery.blurb %}<p class="misc-hobbyblock__blurb">{{ gallery.blurb }}</p>{% endif %}
+
+    {% assign gallery_total = 0 %}
+    {% for series in gallery.series %}
+      {% assign prefix = '/images/misc/' | append: series.folder | append: '/' %}
+      {% assign photos = misc_files | where_exp: "f", "f.path contains prefix" %}
+      {% assign gallery_total = gallery_total | plus: photos.size %}
+    {% endfor %}
+
+    {% if gallery.series.size > 1 %}
+      <div class="pp__pills js-pp-pills" data-grid="{{ gid }}">
+        <button type="button" class="pp__pill is-active" data-filter="all">
+          All<span class="pp__count">{{ gallery_total }}</span>
+        </button>
+        {% for series in gallery.series %}
+          {% assign prefix = '/images/misc/' | append: series.folder | append: '/' %}
+          {% assign photos = misc_files | where_exp: "f", "f.path contains prefix" %}
+          <button type="button" class="pp__pill" data-filter="{{ series.folder | slugify }}">
+            {{ series.title }}<span class="pp__count">{{ photos.size }}</span>
+          </button>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <div class="pp__grid" id="{{ gid }}">
+      {% for series in gallery.series %}
+        {% assign prefix = '/images/misc/' | append: series.folder | append: '/' %}
+        {% assign photos = misc_files | where_exp: "f", "f.path contains prefix" | sort: "name" %}
+        {% for photo in photos %}
+          {% assign ckey = series.folder | append: '/' | append: photo.name %}
+          {% assign caption = site.data.misc.captions[ckey] %}
+          {% assign alt = caption | default: series.title | default: gallery.title %}
+          <a class="pp__item js-lb" data-group="gallery" data-series="{{ series.folder | slugify }}"
+             href="{{ photo.path | relative_url }}"
+             data-caption="{{ alt | escape }}">
+            <img src="{{ photo.path | relative_url }}" loading="lazy" alt="{{ alt | escape }}">
+            <span class="pp__hover">
+              {% if caption %}<em>{{ caption }}</em>{% endif %}
+              {% if series.title %}<small>{{ series.title }}</small>{% endif %}
+            </span>
+          </a>
+        {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+{% endfor %}

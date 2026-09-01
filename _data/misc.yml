@@ -1,0 +1,74 @@
+# Content for the /misc/ page.
+#
+# Photos are discovered automatically from the folders named below, so adding a
+# picture is just: drop the file in, run scripts/optimize_misc_photos.py, done.
+# Everything here is the wording that wraps around them.
+
+intro: >
+  Outside work and research, I am interested in a myriad of hobbies - check out a few of them below! My list of hobbies will keep growing...
+
+# The hobby chips at the top of the page.
+hobby_groups:
+  - label: "Sports"
+    icon: "🥾"
+    items:
+      - Running
+      - Hiking
+      - Climbing
+      - Skiing
+  - label: "Wellness"
+    icon: "🌿"
+    items:
+      - Pilates &amp; yoga
+      - Watercolor (self-taught)
+      - Crocheting (self-taught)
+  - label: "Music"
+    icon: "🎻"
+    items:
+      - Cello (classically trained since 8)
+  - label: "Kitchen"
+    icon: "🥐"
+    items:
+      - Baking
+      - Cooking
+
+# Each gallery is one hobby. A hobby with a single body of work has one series
+# pointing at its own folder; a hobby that accumulates trips has one series per
+# subfolder. `folder` is relative to images/misc/.
+galleries:
+  - key: hiking
+    title: Hiking
+    # blurb: Trails collected one weekend at a time.
+    series:
+      - folder: hiking/sequoia2026
+        title: Sequoia National Park (2026)
+        place: California
+        year: 2026
+      - folder: hiking/atlanta2026
+        title: Atlanta (2026)
+        place: Georgia
+        year: 2026
+
+  - key: baking
+    title: Baking
+    # blurb: Weekend experiments, usually photographed next to whatever flowers were on the counter.
+    series:
+      - folder: baking
+        # title: Out of the oven
+        place: ""
+        year: ""
+
+# Optional per-photo captions, keyed by path under images/misc/.
+# Anything missing just shows up without a caption.
+captions:
+  baking/img-2406.jpg: Burnt Basque cheesecake
+  baking/img-2672.jpg: Shokupan
+  baking/img-4748.jpg: French blueberry tart
+  baking/img-5016.jpg: French apple tart
+  baking/img-6212-2.jpg: HK-style egg tart
+  hiking/sequoia2026/26914.jpg: A chipmunk
+  hiking/sequoia2026/26954.jpg: Hume Lake
+  hiking/sequoia2026/img-3360.jpg: Looking straight up
+  hiking/sequoia2026/img-3391.jpg: Two giants
+  hiking/sequoia2026/img-3462.jpg: Me!!
+  hiking/atlanta2026/img-2191.jpg: Sweetwater Creek State Park

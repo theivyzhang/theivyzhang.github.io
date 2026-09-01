@@ -36,8 +36,6 @@ could be a good fit for your team, I would love to connect — please feel free 
 [azhang677@gatech.edu](mailto:azhang677@gatech.edu).
 </div>
 
-Outside of research, I enjoy a myriad of hobbies spanning sports (running, pilates/yoga, climbing, skiing, and hiking), creative arts (self-taught water-coloring and crocheting), and music (I am a classically trained cellist since the age of 8).
-
 ------
 
 Updates

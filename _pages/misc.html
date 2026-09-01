@@ -1,0 +1,279 @@
+---
+layout: archive
+title: "Misc"
+permalink: /misc/
+author_profile: true
+---
+
+<style>
+/* ==========================================================================
+   /misc/ — hobbies + photo gallery
+   NB: `layout: compress` joins this page onto one line, so every comment in
+   the inline script below must be a block comment -- a line comment would
+   swallow the rest of the script.
+   ========================================================================== */
+
+.misc-page {
+  --misc-accent: #b3a369;
+  --misc-muted: var(--global-text-color-light);
+}
+
+/* The archive layout underlines every link; the gallery opts out. */
+.misc-page a,
+.misc-page a:hover { text-decoration: none; }
+.misc-page a:hover img { box-shadow: none; }
+
+/* --- hobbies ------------------------------------------------------------ */
+
+.misc-intro {
+  font-size: 1.02em;
+  margin: 0 0 1.6em;
+}
+
+.misc-chipgroups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 1.4em 2em;
+  margin-bottom: 2.4em;
+}
+
+.misc-chipgroup__label {
+  display: block;
+  font-size: 0.72em;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--misc-muted);
+  margin-bottom: 0.7em;
+}
+
+.misc-chips {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+}
+
+.misc-chips li {
+  font-size: 0.82em;
+  line-height: 1.3;
+  padding: 0.3em 0.7em;
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+  color: var(--global-text-color);
+}
+
+/* --- gallery ------------------------------------------------------------- */
+
+.misc-gallery {
+  border-top: 1px solid var(--global-border-color);
+  padding-top: 1.8em;
+}
+
+.misc-hobbyblock { margin-bottom: 2.4em; }
+.misc-hobbyblock:last-child { margin-bottom: 0.5em; }
+.misc-hobbyblock__title { margin: 0 0 0.55em; font-size: 1.05em; }
+.misc-hobbyblock__blurb { margin: 0 0 1em; font-size: 0.85em; color: var(--misc-muted); }
+
+.pp__pills { display: flex; flex-wrap: wrap; gap: 0.4em; margin: 0 0 1em; }
+.pp__pill {
+  font-size: 0.78em;
+  padding: 0.3em 0.8em;
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--global-text-color);
+  cursor: pointer;
+}
+.pp__pill.is-active { background: var(--misc-accent); border-color: var(--misc-accent); color: #fff; }
+.pp__count { margin-left: 0.45em; opacity: 0.6; font-size: 0.9em; }
+.pp__pill.is-active .pp__count { opacity: 0.8; }
+
+.pp__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 8px;
+}
+.pp__item {
+  position: relative;
+  display: block;
+  border-radius: 4px;
+  overflow: hidden;
+}
+/* display:block above would otherwise beat the browser's [hidden] rule. */
+.pp__item[hidden] { display: none; }
+.pp__item img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  transition: transform 0.25s ease;
+}
+.pp__item:hover img { transform: scale(1.05); }
+.pp__hover {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0.15em;
+  padding: 0.6em;
+  color: #fff;
+  background: linear-gradient(to top, rgba(0,0,0,0.68), rgba(0,0,0,0) 62%);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.pp__item:hover .pp__hover { opacity: 1; }
+.pp__hover em { font-style: normal; font-size: 0.76em; line-height: 1.2; }
+.pp__hover small { font-size: 0.66em; opacity: 0.75; }
+@media (hover: none) { .pp__hover { opacity: 1; } }
+
+/* --- lightbox ------------------------------------------------------------ */
+
+.lb {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(10, 10, 12, 0.93);
+}
+.lb.is-open { display: flex; }
+.lb__img { max-width: 90vw; max-height: 80vh; object-fit: contain; border-radius: 3px; }
+.lb__cap {
+  position: absolute;
+  bottom: 5vh;
+  left: 0; right: 0;
+  text-align: center;
+  color: #eee;
+  font-size: 0.85em;
+  padding: 0 1em;
+}
+.lb__btn {
+  position: absolute;
+  background: none;
+  border: 0;
+  color: #fff;
+  opacity: 0.7;
+  cursor: pointer;
+  line-height: 1;
+}
+.lb__btn:hover { opacity: 1; }
+.lb__close { top: 3vh; right: 4vw; font-size: 2em; }
+.lb__prev { left: 3vw; font-size: 2.8em; }
+.lb__next { right: 3vw; font-size: 2.8em; }
+</style>
+
+<div class="misc-page">
+
+  <p class="misc-intro">{{ site.data.misc.intro }}</p>
+
+  <div class="misc-chipgroups">
+    {% for group in site.data.misc.hobby_groups %}
+      <div class="misc-chipgroup">
+        <span class="misc-chipgroup__label">{{ group.icon }} {{ group.label }}</span>
+        <ul class="misc-chips">
+          {% for item in group.items %}<li>{{ item }}</li>{% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="misc-gallery">
+    {% include misc/passport.html %}
+  </div>
+
+</div>
+
+<div class="lb" id="misc-lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button type="button" class="lb__btn lb__close" aria-label="Close">&times;</button>
+  <button type="button" class="lb__btn lb__prev" aria-label="Previous photo">&#8249;</button>
+  <img class="lb__img" src="" alt="">
+  <button type="button" class="lb__btn lb__next" aria-label="Next photo">&#8250;</button>
+  <p class="lb__cap"></p>
+</div>
+
+<script>
+(function () {
+  /* ---- series filter pills --------------------------------------------- */
+  document.querySelectorAll('.js-pp-pills').forEach(function (pills) {
+    var grid = document.getElementById(pills.dataset.grid);
+    if (!grid) return;
+    pills.addEventListener('click', function (e) {
+      var btn = e.target.closest('.pp__pill');
+      if (!btn) return;
+      var filter = btn.dataset.filter;
+      pills.querySelectorAll('.pp__pill').forEach(function (b) {
+        b.classList.toggle('is-active', b === btn);
+      });
+      grid.querySelectorAll('.pp__item').forEach(function (item) {
+        item.hidden = (filter !== 'all' && item.dataset.series !== filter);
+      });
+    });
+  });
+
+  /* ---- lightbox --------------------------------------------------------- */
+  var box = document.getElementById('misc-lightbox');
+  if (!box) return;
+  /* The overlay is authored inside .archive, whose stacking context sits below
+     the fixed masthead -- so z-index alone loses. Reparent it to <body>. */
+  document.body.appendChild(box);
+
+  var boxImg = box.querySelector('.lb__img');
+  var boxCap = box.querySelector('.lb__cap');
+  var group = [];
+  var index = 0;
+
+  function show(i) {
+    if (!group.length) return;
+    index = (i + group.length) % group.length;
+    var link = group[index];
+    boxImg.src = link.getAttribute('href');
+    boxImg.alt = link.dataset.caption || '';
+    boxCap.textContent = link.dataset.caption || '';
+  }
+
+  function open(link) {
+    var name = link.dataset.group;
+    group = Array.prototype.filter.call(
+      document.querySelectorAll('.js-lb[data-group="' + name + '"]'),
+      function (el) { return el.offsetParent !== null; }
+    );
+    show(group.indexOf(link));
+    box.classList.add('is-open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function close() {
+    box.classList.remove('is-open');
+    document.body.style.overflow = '';
+    boxImg.src = '';
+  }
+
+  document.addEventListener('click', function (e) {
+    var link = e.target.closest('.js-lb');
+    if (!link) return;
+    /* Capture phase: the theme binds Magnific Popup to every a[href$='.jpg'],
+       and stopping here keeps the event from ever reaching that handler. */
+    e.preventDefault();
+    e.stopPropagation();
+    open(link);
+  }, true);
+
+  box.addEventListener('click', function (e) {
+    if (e.target.closest('.lb__next')) { show(index + 1); return; }
+    if (e.target.closest('.lb__prev')) { show(index - 1); return; }
+    if (e.target.closest('.lb__close') || e.target === box) close();
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (!box.classList.contains('is-open')) return;
+    if (e.key === 'Escape') close();
+    if (e.key === 'ArrowRight') show(index + 1);
+    if (e.key === 'ArrowLeft') show(index - 1);
+  });
+})();
+</script>
