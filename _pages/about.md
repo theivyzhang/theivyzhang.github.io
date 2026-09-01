@@ -10,7 +10,7 @@ I am a 2nd year CS PhD student in the School of Interactive Computing at<img src
 
 <!-- My research examines how human health is recorded in radically different languages: continuous physiological and behavioral signals from wearables, dense clinical shorthand in electronic health records, and the everyday words people use to describe how they’re doing. How can we build AI systems that connect these representations, reason about how health changes, and communicate what they learn to humans? -->
 
-I develop **human-centered AI models that learn from and reason over longitudinal health data**. My recent work spans **large pre-trained foundation models for wearable time series** and **LLM-based systems for reconstructing temporal patient journeys from unstructured clinical records**. Ultimately, I aim to translate these models into systems that can **integrate fragmented health information and support human and clinical decision-making**.
+I develop **human-centered AI models that learn from and reason over longitudinal health data**. My recent work spans **large pre-trained foundation models for wearable time series** and **LLM-based systems for reconstructing temporal patient journeys from unstructured clinical records**. I deploy methods in **representation learning**, **temporal modeling**, and **generative AI** to integrate fragmented health information and build longitudinal models that can inform personalized and clinical decision-making.
 
 <style>
 .seeking-box {
