@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a junior researcher and 2nd year CS PhD student in the School of Interactive Computing at<img src="/images/gt-logo.png" alt="Georgia Tech logo" style="height:1.15em; width:auto; vertical-align:-0.19em; margin:0 0.12em 0 0.28em; border-radius:3px;"> Georgia Tech, where I'm advised by Professor [Munmun De Choudhury](http://www.munmund.net/index.html) at the [Social Dynamics and Wellbeing (SocWeb) Lab](https://socweb.cc.gatech.edu/). I obtained my Bachelor's degree in Computer Science (with High Honors) from<img src="/images/dartmouth_logo.png" alt="Dartmouth College logo" style="height:1.15em; width:auto; vertical-align:-0.19em; margin:0 0.12em 0 0.28em; border-radius:3px;">Dartmouth College, where I was fortunate to be advised by Professors [Nicholas Jacobson](https://www.nicholasjacobson.com/) and [Andrew Campbell](https://www.cs.dartmouth.edu/~campbell/).
+I am a 2nd year CS PhD student in the School of Interactive Computing at<img src="/images/gt-logo.png" alt="Georgia Tech logo" style="height:1.15em; width:auto; vertical-align:-0.19em; margin:0 0.12em 0 0.28em; border-radius:3px;"> Georgia Tech. I am advised by Professor [Munmun De Choudhury](http://www.munmund.net/index.html) and am a member of the [Social Dynamics and Wellbeing (SocWeb) Lab](https://socweb.cc.gatech.edu/). I obtained my Bachelor's degree in Computer Science (with High Honors) from<img src="/images/dartmouth_logo.png" alt="Dartmouth College logo" style="height:1.15em; width:auto; vertical-align:-0.19em; margin:0 0.12em 0 0.28em; border-radius:3px;">Dartmouth College, where I was fortunate to be advised by Professors [Nicholas Jacobson](https://www.nicholasjacobson.com/) and [Andrew Campbell](https://www.cs.dartmouth.edu/~campbell/).
 
 <!-- My research examines how human health is recorded in radically different languages: continuous physiological and behavioral signals from wearables, dense clinical shorthand in electronic health records, and the everyday words people use to describe how they’re doing. How can we build AI systems that connect these representations, reason about how health changes, and communicate what they learn to humans? -->
 
@@ -212,7 +212,7 @@ Research Experiences
 <div class="row">
   <span class="row-logo"><img src="/images/gt-logo.png" alt="Georgia Tech logo"></span>
   <span class="row-text"><b>[August 2025 - Present]</b> Graduate Research Assistant at <a href="https://socweb.cc.gatech.edu/">the Social Dynamics and Wellbeing Lab @ Georgia Tech</a>
-  <br> Advised by Professor <a href="https://www.cs.dartmouth.edu/~campbell/">Munmun De Choudhury</a>.</span>
+  <br> Advised by Professor <a href="http://www.munmund.net/index.html">Munmun De Choudhury</a>.</span>
 </div>
 
 ------
@@ -235,7 +235,7 @@ Research Experiences
 
 <div class="row">
   <span class="row-logo"><img src="/images/dartmouth_logo.png" alt="Dartmouth College logo"></span>
-  <span class="row-text"><b>[January 2023 - June 2024]</b> Research Assistant at <a href="https://home.dartmouth.edu/">the Dartmouth Reality and Robotics Lab</a>
+  <span class="row-text"><b>[January 2023 - June 2024]</b> Research Assistant at <a href="https://rlab.cs.dartmouth.edu/">the Dartmouth Reality and Robotics Lab</a>
   <br> Advised by Professor <a href="https://rlab.cs.dartmouth.edu/albertoq/">Alberto Quattrini Li</a>.</span>
 </div>
 
