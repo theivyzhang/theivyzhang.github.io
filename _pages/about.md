@@ -186,11 +186,27 @@ html[data-theme="dark"] .pub-btn {
 
 <div class="pub-item">
   <div class="pub-thumb">
+    <img src="/images/pub_icons/CliniCIRCA_icon.png" alt="CliniCIRCA: modular LLM pipeline turning raw EHR narratives into longitudinal patient journeys">
+  </div>
+  <div class="pub-body">
+    <p class="pub-title">CliniCIRCA: A Modular LLM Framework for Constructing Longitudinal Mental Health Patient Journeys from Raw EHR Narratives</p>
+    <p class="pub-authors"><span class="pub-me">Aiwei Ivy Zhang</span>, Nimra Ishfaq, Mohit Chandra, Santiago Alvarez Lesmes, Adam Coscia, Khatiya Chelidze Moon, Xiaohan Ding, Munmun De Choudhury</p>
+    <p class="pub-venue">In submission, 2026</p>
+    <div class="pub-links">
+      <a class="pub-btn" href="https://arxiv.org/abs/2609.19585"><i class="fas fa-file-lines"></i> Paper</a>
+    </div>
+  </div>
+</div>
+
+------
+
+<div class="pub-item">
+  <div class="pub-thumb">
     <img src="/images/pub_icons/PAT_Icon.png" alt="PAT model architecture: masked autoencoder pretraining and finetuning">
   </div>
   <div class="pub-body">
     <p class="pub-title">A Foundation Model for Wearable Movement Data in Mental Health Research</p>
-    <p class="pub-authors">Franklin Y. Ruan*, <span class="pub-me">Aiwei Zhang*</span>, Jenny Y. Oh, SouYoung Jin, Nicholas C. Jacobson <br> (* Equal Contribution)</p>
+    <p class="pub-authors">Franklin Y. Ruan*, <span class="pub-me">Aiwei Ivy Zhang*</span>, Jenny Y. Oh, SouYoung Jin, Nicholas C. Jacobson <br> (* Equal Contribution)</p>
     <p class="pub-venue">IEEE Journal of Biomedical and Health Informatics (JBHI), 2026</p>
     <div class="pub-links">
       <a class="pub-btn" href="https://arxiv.org/abs/2411.15240"><i class="fas fa-file-lines"></i> Paper</a>
