@@ -194,6 +194,7 @@ html[data-theme="dark"] .pub-btn {
     <p class="pub-venue">In submission, 2026</p>
     <div class="pub-links">
       <a class="pub-btn" href="https://arxiv.org/abs/2609.19585"><i class="fas fa-file-lines"></i> Paper</a>
+      <a class="pub-btn" href="https://github.com/theivyzhang/CliniCIRCA"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
 </div>
