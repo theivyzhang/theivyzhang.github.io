@@ -186,7 +186,7 @@ html[data-theme="dark"] .pub-btn {
 
 <div class="pub-item">
   <div class="pub-thumb">
-    <img src="/images/pub_icons/CliniCIRCA_icon.png" alt="CliniCIRCA: modular LLM pipeline turning raw EHR narratives into longitudinal patient journeys">
+    <img src="/images/pub_icons/CliniCIRCA_icon.png?v=2" alt="CliniCIRCA: modular LLM pipeline turning raw EHR narratives into longitudinal patient journeys">
   </div>
   <div class="pub-body">
     <p class="pub-title">CliniCIRCA: A Modular LLM Framework for Constructing Longitudinal Mental Health Patient Journeys from Raw EHR Narratives</p>
