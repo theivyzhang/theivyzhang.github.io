@@ -140,9 +140,34 @@ html[data-theme="dark"] .pub-btn {
 
 /* Selected / All publication toggle */
 #publications { scroll-margin-top: 4.5em; }
+.pub-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6em 1em;
+  margin: 0.3em 0 0.2em;
+}
+/* .page__content p sets font-size: 1em, so this needs the extra class to win */
+.page__content .pub-note {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin: 0;
+  font-size: 0.75em;
+  line-height: 1.5;
+}
+.pub-note a {
+  color: var(--global-link-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+.pub-note a:hover {
+  color: var(--global-link-color-hover);
+  text-decoration: underline;
+}
 .pub-toggle {
   display: inline-flex;
-  margin: 0.3em 0 0.2em;
+  flex: 0 0 auto;
+  margin-left: auto;
   border: 1px solid #b8bcc2;
   border-radius: 8px;
   overflow: hidden;
@@ -207,6 +232,7 @@ html[data-theme="dark"] .pub-toggle button + button { border-left-color: #8b9199
 }
 
 @media screen and (max-width: 600px) {
+  .pub-bar { flex-wrap: wrap; }
   .pub-item { flex-direction: column; gap: 0.9em; }
   .pub-thumb { flex: 0 0 auto; max-width: 60%; }
   .row { flex-direction: column; align-items: flex-start; gap: 0.8em; }
@@ -214,9 +240,12 @@ html[data-theme="dark"] .pub-toggle button + button { border-left-color: #8b9199
 }
 </style>
 
-<div class="pub-toggle" role="group" aria-label="Filter publications">
-  <button type="button" data-view="selected" aria-pressed="true">Selected</button>
-  <button type="button" data-view="all" aria-pressed="false">All</button>
+<div class="pub-bar">
+  <p class="pub-note">*: Equal contribution. See also my <a href="{{ site.author.googlescholar }}">Google Scholar</a> profile for the most recent publications.</p>
+  <div class="pub-toggle" role="group" aria-label="Filter publications">
+    <button type="button" data-view="selected" aria-pressed="true">Selected</button>
+    <button type="button" data-view="all" aria-pressed="false">All</button>
+  </div>
 </div>
 
 ------
@@ -232,6 +261,7 @@ html[data-theme="dark"] .pub-toggle button + button { border-left-color: #8b9199
     <p class="pub-venue">In submission, 2026</p>
     <div class="pub-links">
       <a class="pub-btn" href="https://arxiv.org/abs/2609.19585"><i class="fas fa-file-lines"></i> Paper</a>
+      <a class="pub-btn" href="https://theivyzhang.github.io/CliniCIRCA-website/"><i class="fas fa-globe"></i> Website</a>
       <a class="pub-btn" href="https://github.com/theivyzhang/CliniCIRCA"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
