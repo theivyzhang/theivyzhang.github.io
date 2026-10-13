@@ -62,7 +62,7 @@ Updates
 
 ------
 
-Selected Publications
+Publications
 ======
 
 <style>
@@ -82,6 +82,12 @@ Selected Publications
   object-fit: cover;
   border-radius: 6px;
   border: 1px solid var(--global-border-color);
+}
+.pub-thumb-placeholder {
+  aspect-ratio: 16 / 9;
+  border-radius: 6px;
+  border: 1px dashed var(--global-border-color);
+  background: rgba(127, 127, 127, 0.06);
 }
 .pub-body {
   flex: 1 1 auto;
@@ -138,6 +144,39 @@ html[data-theme="dark"] .pub-btn {
 }
 .pub-btn i { font-size: 0.95em; }
 
+/* Selected / All publication toggle */
+#publications { scroll-margin-top: 4.5em; }
+.pub-toggle {
+  display: inline-flex;
+  margin: 0.3em 0 0.2em;
+  border: 1px solid #b8bcc2;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18), 0 1px 1px rgba(0, 0, 0, 0.10);
+}
+html[data-theme="dark"] .pub-toggle { border-color: #8b9199; }
+.pub-toggle button {
+  font: inherit;
+  font-size: 0.85em;
+  font-weight: 600;
+  line-height: 1.4;
+  padding: 0.35em 1.1em;
+  border: 0;
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+.pub-toggle button + button { border-left: 1px solid #b8bcc2; }
+html[data-theme="dark"] .pub-toggle button + button { border-left-color: #8b9199; }
+.pub-toggle button:hover { color: var(--global-link-color); }
+.pub-toggle button[aria-pressed="true"] {
+  background: var(--global-text-color);
+  color: var(--global-bg-color);
+}
+.pub-list .pub-item + .pub-item { border-top: 1px solid var(--global-border-color); }
+.pub-list[data-view="selected"] .pub-extra { display: none; }
+
 /* Tighter vertical rhythm between sections */
 .page__content h1 {
   margin-top: 1.8em;
@@ -181,8 +220,14 @@ html[data-theme="dark"] .pub-btn {
 }
 </style>
 
+<div class="pub-toggle" role="group" aria-label="Filter publications">
+  <button type="button" data-view="selected" aria-pressed="true">Selected</button>
+  <button type="button" data-view="all" aria-pressed="false">All</button>
+</div>
+
 ------
 
+<div class="pub-list" id="pub-list" data-view="selected">
 <div class="pub-item">
   <div class="pub-thumb">
     <img src="/images/pub_icons/CliniCIRCA_icon.png?v=2" alt="CliniCIRCA: modular LLM pipeline turning raw EHR narratives into longitudinal patient journeys">
@@ -197,9 +242,6 @@ html[data-theme="dark"] .pub-btn {
     </div>
   </div>
 </div>
-
-------
-
 <div class="pub-item">
   <div class="pub-thumb">
     <img src="/images/pub_icons/PAT_Icon.png" alt="PAT model architecture: masked autoencoder pretraining and finetuning">
@@ -215,6 +257,75 @@ html[data-theme="dark"] .pub-btn {
     </div>
   </div>
 </div>
+<div class="pub-item pub-extra">
+  <div class="pub-thumb">
+    <div class="pub-thumb-placeholder"></div>
+  </div>
+  <div class="pub-body">
+    <p class="pub-title">Is Symbolic Music a Specific Language? Exploring Inspiration-to-Structure Machine Composition via LLMs</p>
+    <p class="pub-authors">Zhejing Hu, Yan Liu, Zhi Zhang, <span class="pub-me">Aiwei Zhang</span>, Sheng-hua Zhong, Bruce X.B. Yu, Gong Chen</p>
+    <p class="pub-venue">Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2026</p>
+    <div class="pub-links">
+      <a class="pub-btn" href="https://ojs.aaai.org/index.php/AAAI/article/view/37163"><i class="fas fa-file-lines"></i> Paper</a>
+    </div>
+  </div>
+</div>
+<div class="pub-item pub-extra">
+  <div class="pub-thumb">
+    <div class="pub-thumb-placeholder"></div>
+  </div>
+  <div class="pub-body">
+    <p class="pub-title">MotionTeller: Multi-modal Integration of Wearable Time-Series with LLMs for Health and Behavioral Understanding</p>
+    <p class="pub-authors"><span class="pub-me">Aiwei Zhang</span>, Arvind Pillai, Andrew Campbell, Nicholas C. Jacobson</p>
+    <p class="pub-venue">Dartmouth Computer Science Senior Theses (High Honors), 2026</p>
+    <div class="pub-links">
+      <a class="pub-btn" href="https://arxiv.org/abs/2512.21506"><i class="fas fa-file-lines"></i> Paper</a>
+    </div>
+  </div>
+</div>
+<div class="pub-item pub-extra">
+  <div class="pub-thumb">
+    <div class="pub-thumb-placeholder"></div>
+  </div>
+  <div class="pub-body">
+    <p class="pub-title">SeePerSea: Multi-modal Perception Dataset of In-water Objects for Autonomous Surface Vehicles</p>
+    <p class="pub-authors">Mingi Jeong, Arihant Chadda, Ziang Ren, Luyang Zhao, Haowen Liu, <span class="pub-me">Aiwei Zhang</span>, Yitao Jiang, Sabriel Achong, Samuel Lensgraf, Monika Roznere, Alberto Quattrini Li</p>
+    <p class="pub-venue">IEEE Transactions on Field Robotics, 2025</p>
+    <div class="pub-links">
+      <a class="pub-btn" href="https://ieeexplore.ieee.org/abstract/document/11142348/"><i class="fas fa-file-lines"></i> Paper</a>
+      <a class="pub-btn" href="https://seepersea.github.io/"><i class="fas fa-globe"></i> Website</a>
+    </div>
+  </div>
+</div>
+<div class="pub-item pub-extra">
+  <div class="pub-thumb">
+    <div class="pub-thumb-placeholder"></div>
+  </div>
+  <div class="pub-body">
+    <p class="pub-title">Make Your Favorite Music Curative: Music Style Transfer for Anxiety Reduction</p>
+    <p class="pub-authors">Zhejing Hu, Yan Liu, Gong Chen, Shen-hua Zhong, <span class="pub-me">Aiwei Zhang</span></p>
+    <p class="pub-venue">Proceedings of the 28th ACM International Conference on Multimedia (ACM MM), 2020</p>
+    <div class="pub-links">
+      <a class="pub-btn" href="https://dl.acm.org/doi/abs/10.1145/3394171.3414070"><i class="fas fa-file-lines"></i> Paper</a>
+    </div>
+  </div>
+</div>
+</div>
+
+<script>
+(function () {
+  var list = document.getElementById('pub-list');
+  var buttons = document.querySelectorAll('.pub-toggle button');
+  Array.prototype.forEach.call(buttons, function (btn) {
+    btn.addEventListener('click', function () {
+      list.setAttribute('data-view', btn.getAttribute('data-view'));
+      Array.prototype.forEach.call(buttons, function (b) {
+        b.setAttribute('aria-pressed', b === btn ? 'true' : 'false');
+      });
+    });
+  });
+})();
+</script>
 
 ------
 
