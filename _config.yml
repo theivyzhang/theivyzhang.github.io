@@ -25,10 +25,10 @@ author:
   avatar           : "IMG_2804.jpg"
   name             : "Aiwei Ivy Zhang"
   pronouns         : # example: "she/her"  
-  bio              : "building human-centric AI for health {Human-centered NLP, Human-AI Interaction, Health AI}"
+  bio              : "building human-centric AI for health {Human-centered NLP, ML for Health, Human-AI Interaction, Clinical AI}"
   location         : "Atlanta, GA"
   employer         : "Georgia Institute of Technology"
-  uri              : # URL
+  uri              : "https://theivyzhang.github.io" # URL
   email            : "azhang677@gatech.edu" 
 
   # Academic websites
