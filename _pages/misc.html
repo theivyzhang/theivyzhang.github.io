@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Misc"
+title: "Fun Hobbies"
 permalink: /misc/
 author_profile: true
 ---
@@ -22,80 +22,6 @@ author_profile: true
 .misc-page a,
 .misc-page a:hover { text-decoration: none; }
 .misc-page a:hover img { box-shadow: none; }
-
-/* --- sections ----------------------------------------------------------- */
-
-.misc-section { margin: 0 0 2.8em; }
-
-.misc-section__title {
-  margin: 0 0 1em;
-  padding-bottom: 0.4em;
-  border-bottom: 1px solid var(--global-border-color);
-}
-
-/* --- fun facts ---------------------------------------------------------- */
-
-.facts__card {
-  display: flex;
-  align-items: center;
-  gap: 0.4em;
-  padding: 0.85em 0.5em;
-  border: 1px solid var(--global-border-color);
-  border-radius: 8px;
-}
-
-/* Every slide sits in the same grid cell, so the card is as tall as the
-   longest fact and doesn't jump when a wrapped fact rotates in. */
-.facts__track { flex: 1; display: grid; min-width: 0; }
-
-.facts__slide {
-  grid-area: 1 / 1;
-  display: flex;
-  align-items: center;
-  gap: 0.75em;
-  margin: 0;
-  font-size: 0.92em;
-  line-height: 1.45;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.45s ease, visibility 0.45s;
-}
-.facts__slide.is-active { opacity: 1; visibility: visible; }
-
-.facts__icon { font-size: 1.4em; line-height: 1; flex-shrink: 0; }
-
-.facts__arrow {
-  flex-shrink: 0;
-  background: none;
-  border: 0;
-  padding: 0 0.35em;
-  font-size: 1.7em;
-  line-height: 1;
-  color: var(--misc-muted);
-  cursor: pointer;
-}
-.facts__arrow:hover { color: var(--misc-accent); }
-
-.facts__dots {
-  display: flex;
-  justify-content: center;
-  gap: 0.55em;
-  margin-top: 0.8em;
-}
-.facts__dot {
-  width: 8px;
-  height: 8px;
-  padding: 0;
-  border: 0;
-  border-radius: 50%;
-  background: var(--global-border-color);
-  cursor: pointer;
-}
-.facts__dot.is-active { background: var(--misc-accent); }
-
-@media (prefers-reduced-motion: reduce) {
-  .facts__slide { transition: none; }
-}
 
 /* --- hobbies ------------------------------------------------------------ */
 
@@ -243,32 +169,6 @@ author_profile: true
 
 <div class="misc-page">
 
-  <section class="misc-section">
-    <h2 class="misc-section__title">Fun Facts</h2>
-    <div class="facts js-facts" role="region" aria-roledescription="carousel" aria-label="Fun facts">
-      <div class="facts__card">
-        <button type="button" class="facts__arrow js-facts-prev" aria-label="Previous fact">&#8249;</button>
-        <div class="facts__track">
-          {% for fact in site.data.misc.fun_facts %}
-            <p class="facts__slide{% if forloop.first %} is-active{% endif %}"{% unless forloop.first %} aria-hidden="true"{% endunless %}>
-              <span class="facts__icon" aria-hidden="true">{{ fact.icon }}</span>
-              <span>{{ fact.text }}</span>
-            </p>
-          {% endfor %}
-        </div>
-        <button type="button" class="facts__arrow js-facts-next" aria-label="Next fact">&#8250;</button>
-      </div>
-      <div class="facts__dots">
-        {% for fact in site.data.misc.fun_facts %}
-          <button type="button" class="facts__dot{% if forloop.first %} is-active{% endif %}" aria-label="Show fact {{ forloop.index }}"{% if forloop.first %} aria-current="true"{% endif %}></button>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-
-  <section class="misc-section">
-  <h2 class="misc-section__title">Fun Hobbies</h2>
-
   <p class="misc-intro">{{ site.data.misc.intro }}</p>
 
   <div class="misc-chipgroups">
@@ -285,7 +185,6 @@ author_profile: true
   <div class="misc-gallery">
     {% include misc/passport.html %}
   </div>
-  </section>
 
 </div>
 
@@ -299,49 +198,6 @@ author_profile: true
 
 <script>
 (function () {
-  /* ---- fun facts carousel ---------------------------------------------- */
-  var facts = document.querySelector('.js-facts');
-  if (facts) {
-    var slides = facts.querySelectorAll('.facts__slide');
-    var dots = facts.querySelectorAll('.facts__dot');
-    var current = 0;
-    var timer = null;
-
-    var go = function (i) {
-      current = (i + slides.length) % slides.length;
-      slides.forEach(function (s, k) {
-        s.classList.toggle('is-active', k === current);
-        s.setAttribute('aria-hidden', k === current ? 'false' : 'true');
-      });
-      dots.forEach(function (d, k) {
-        d.classList.toggle('is-active', k === current);
-        if (k === current) d.setAttribute('aria-current', 'true');
-        else d.removeAttribute('aria-current');
-      });
-    };
-    var stop = function () { clearInterval(timer); timer = null; };
-    var start = function () {
-      stop();
-      timer = setInterval(function () { go(current + 1); }, 10000);
-    };
-
-    if (slides.length > 1) {
-      facts.querySelector('.js-facts-prev').addEventListener('click', function () { go(current - 1); });
-      facts.querySelector('.js-facts-next').addEventListener('click', function () { go(current + 1); });
-      dots.forEach(function (d, k) {
-        d.addEventListener('click', function () { go(k); });
-      });
-      /* Hold still while someone is reading or using the controls. */
-      facts.addEventListener('mouseenter', stop);
-      facts.addEventListener('mouseleave', start);
-      facts.addEventListener('focusin', stop);
-      facts.addEventListener('focusout', start);
-      start();
-    } else {
-      facts.querySelectorAll('.facts__arrow, .facts__dots').forEach(function (el) { el.hidden = true; });
-    }
-  }
-
   /* ---- series filter pills --------------------------------------------- */
   document.querySelectorAll('.js-pp-pills').forEach(function (pills) {
     var grid = document.getElementById(pills.dataset.grid);
