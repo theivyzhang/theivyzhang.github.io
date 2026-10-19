@@ -28,7 +28,7 @@ author_profile: true
 
 <h2 class="service-heading">Reviewing</h2>
 
-* [CHI] (https://chi2027.acm.org/) (2027)
+* [CHI](https://chi2027.acm.org/) (2027)
 * [ML4H](https://ml4h.ahli.cc/) (2026)
 
 <h2 class="service-heading">Community Engagement</h2>
