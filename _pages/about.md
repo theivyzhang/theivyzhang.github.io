@@ -8,9 +8,11 @@ redirect_from:
 ---
 I am a 2nd year CS PhD student in the School of Interactive Computing at<img src="/images/gt-logo.png" alt="Georgia Tech logo" style="height:1.15em; width:auto; vertical-align:-0.19em; margin:0 0.12em 0 0.28em; border-radius:3px;"> Georgia Tech. I am advised by the amazing Professor [Munmun De Choudhury](http://www.munmund.net/index.html) and am a member of the [Social Dynamics and Wellbeing (SocWeb) Lab](https://socweb.cc.gatech.edu/). I obtained my Bachelor's degree in Computer Science (with High Honors) from<img src="/images/dartmouth_logo.png" alt="Dartmouth College logo" style="height:1.15em; width:auto; vertical-align:-0.19em; margin:0 0.12em 0 0.28em; border-radius:3px;">Dartmouth College, where I was fortunate to be advised by Professors [Nicholas Jacobson](https://www.nicholasjacobson.com/) and [Andrew Campbell](https://www.cs.dartmouth.edu/~campbell/).
 
+I am broadly interested in applying **text-based**, **NLP**, and **generative AI** methods to solve hard problems at the intersection of **social computing**, **HCI**, and **mental health**. My recent work spans **open-sourced, pre-trained foundation models for wearable movement data**, and **LLM-based systems with human-in-the-loop evaluation for reconstructing temporal patient journeys from unstructured clinical text**. I aim to integrate multimodal human data and fragmented health information in my research to build models that can inform **personalized and clinical decision-making**.
+
 <!-- My research examines how human health is recorded in radically different languages: continuous physiological and behavioral signals from wearables, dense clinical shorthand in electronic health records, and the everyday words people use to describe how they’re doing. How can we build AI systems that connect these representations, reason about how health changes, and communicate what they learn to humans? -->
 
-I develop **human-centered AI models that learn from and reason over longitudinal health data**. My recent work spans **large pre-trained foundation models for wearable time series** and **LLM-based systems for reconstructing temporal patient journeys from unstructured clinical records**. I deploy methods in **representation learning**, **temporal modeling**, and **generative AI** to integrate fragmented health information and build longitudinal models that can inform personalized and clinical decision-making.
+<!-- I develop **human-centered AI models that learn from and reason over longitudinal health data**. My recent work spans **large pre-trained foundation models for wearable time series** and **LLM-based systems for reconstructing temporal patient journeys from unstructured clinical records**. I deploy methods in **representation learning**, **temporal modeling**, and **generative AI** to integrate fragmented health information and build longitudinal models that can inform personalized and clinical decision-making. -->
 
 <style>
 .seeking-box {
@@ -31,7 +33,7 @@ html[data-theme="dark"] .seeking-box {
 
 <div class="seeking-box" markdown="1">
 ✨ **I am actively seeking Summer 2027 research internship opportunities in industry.**
-If you think my interests in human-centered NLP, human-AI interaction, machine learing for health and LLMs could be a good fit for your team, I would love to connect — please feel free to reach out at
+If you think my interests in NLP, machine learning for health, LLMs, and human-AI interaction could be a good fit for your team, I would love to connect — please feel free to reach out at
 [azhang677@gatech.edu](mailto:azhang677@gatech.edu).
 </div>
 
