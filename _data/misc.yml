@@ -4,6 +4,15 @@
 # picture is just: drop the file in, run scripts/optimize_misc_photos.py, done.
 # Everything here is the wording that wraps around them.
 
+# The fact cards at the very top of the page, numbered in this order.
+fun_facts:
+  - icon: "🌏"
+    text: "Hong Kong is where I call home, but I've lived across 3 continents and multiple countries."
+  - icon: "🏊‍♀️"
+    text: "I know every single stroke in swimming except for freestyle. Been trying for 15+ years, but I just can't do it. 😂"
+  - icon: "📺"
+    text: "I still watch all the cartoons from my childhood. My favorite is <em>Krtek</em> (The Little Mole)."
+
 intro: >
   Outside work and research, I am interested in a myriad of hobbies - check out a few of them below! My list of hobbies will keep growing...
 
@@ -16,6 +25,8 @@ hobby_groups:
       - Hiking
       - Climbing
       - Skiing
+      - Mountain biking (very scared, though)
+      - Scuba diving (PADI)
   - label: "Wellness"
     icon: "🌿"
     items:
