@@ -61,6 +61,14 @@ galleries:
         place: ""
         year: ""
 
+  - key: arts
+    title: Arts
+    series:
+      - folder: watercoloring
+        title: Watercoloring
+      - folder: crocheting
+        title: Crocheting
+
 # Optional per-photo captions, keyed by path under images/misc/.
 # Anything missing just shows up without a caption.
 captions:
