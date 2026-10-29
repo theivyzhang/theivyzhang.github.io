@@ -39,8 +39,12 @@ If you think my interests in NLP, machine learning for health, LLMs, and human-A
 Updates
 ======
 
-<div style="overflow-y: scroll; height:200px;">
+<div style="overflow-y: scroll; height:275px;">
 <ul>
+
+<li><p style="font-size:medium;"><b>[October 2026]:</b> Our work, <b>FrontierCS 2: A Benchmark for Computer Science R&amp;D</b>, is now available as a preprint on <a href="https://arxiv.org/abs/2610.29932">arXiv</a>! 🚀 Happy to have contributed to this collaboration! <a href="https://frontier-cs.org/">Website</a> · <a href="https://github.com/FrontierCS/FrontierCS-2">Code</a></p></li>
+
+<li><p style="font-size:medium;"><b>[September 2026]:</b> My first-author paper, <b>CliniCIRCA: A Modular LLM Framework for Constructing Longitudinal Mental Health Patient Journeys from Raw EHR Narratives</b>, is now available as a preprint on <a href="https://arxiv.org/abs/2609.19585">arXiv</a>! 🥳 CliniCIRCA reconstructs temporally grounded patient timelines from unstructured discharge summaries, with clinician-verified gold labels and a scalable silver-standard dataset. <a href="https://theivyzhang.github.io/CliniCIRCA-website/">Website</a> · <a href="https://github.com/theivyzhang/CliniCIRCA">Code</a></p></li>
 
 <li><p style="font-size:medium;"><b>[May 2026]:</b> My co-first author paper, <b>A Foundation Model for Wearable Movement Data in Mental Health Research</b> has been accepted to <a href="https://www.embs.org/jbhi/">IEEE Journal of Biomedical and Health Informatics (JBHI)</a>! 🥳 🎉</p></li>
 
