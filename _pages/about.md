@@ -6,9 +6,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a 2nd year CS PhD student in the School of Interactive Computing at<img src="/images/gt-logo.png" alt="Georgia Tech logo" style="height:1.15em; width:auto; vertical-align:-0.19em; margin:0 0.12em 0 0.28em; border-radius:3px;"> Georgia Tech. I am advised by the amazing Professor [Munmun De Choudhury](http://www.munmund.net/index.html) and am a member of the [Social Dynamics and Wellbeing (SocWeb) Lab](https://socweb.cc.gatech.edu/). I obtained my Bachelor's degree in Computer Science (with High Honors) from<img src="/images/dartmouth_logo.png" alt="Dartmouth College logo" style="height:1.15em; width:auto; vertical-align:-0.19em; margin:0 0.12em 0 0.28em; border-radius:3px;">Dartmouth College, where I was fortunate to be advised by Professors [Nicholas Jacobson](https://www.nicholasjacobson.com/) and [Andrew Campbell](https://www.cs.dartmouth.edu/~campbell/).
+I am a 2nd year CS PhD student in the School of Interactive Computing at<img src="/images/gt-logo.png" alt="Georgia Tech logo" style="height:1.15em; width:auto; vertical-align:-0.19em; margin:0 0.12em 0 0.28em; border-radius:3px;"> Georgia Tech. I am advised by the amazing Professor [Munmun De Choudhury](http://www.munmund.net/index.html) and am a member of the [Social Dynamics and Wellbeing (SocWeb) Lab](https://socweb.cc.gatech.edu/).
 
-I am interested in applying **text-based**, **NLP**, and **generative AI** methods to **make clinical care and mental health safer and more efficient**, advancing research at the intersection of **social computing**, **HCI**, and **mental health**. My recent work takes different approaches to accomplish this: from **training open-sourced foundation models for wearable movement data**, to **reconstructing the timelines of patient journeys from messy, unstructured clinical text using LLM-based human-in-the-loop systems**. I aim to build systems that can easily integrate multimodal and fragmented personal health information from a variety of sources, making **personalized, timely, and targeted clinical decision-making** available to anyone.
+Broadly, my research interest lies at the interaction of **Natural Language Processing**, **Generative AI**, **Social Computing** and **Human-AI Interaction**. I build and study AI systems that help people organize, interpret, and evaluate complex human data (e.g. social media and electronic health records). I am particularly interested in how these systems can support human judgment and give people greater agency in their everyday decisions, especially in high-stakes contexts such as healthcare, mental health, and online settings. Ultimately, I aim to make timely, personalized support more accessible through AI that understands the contexts of people’s lives and responds to what matters to them.
+
+Before starting my PhD, I earned my Bachelor's degree in Computer Science (with High Honors) from<img src="/images/dartmouth_logo.png" alt="Dartmouth College logo" style="height:1.15em; width:auto; vertical-align:-0.19em; margin:0 0.12em 0 0.28em; border-radius:3px;">Dartmouth College in 2025. I was fortunate to be advised by Professors [Nicholas Jacobson](https://www.nicholasjacobson.com/) and [Andrew Campbell](https://www.cs.dartmouth.edu/~campbell/), with whom I worked on developing open-source foundation models for wearable movement data and exploring how activity patterns relate to medication use, sleep, and mental health.
 
 
 <style>
@@ -30,7 +32,7 @@ html[data-theme="dark"] .seeking-box {
 
 <div class="seeking-box" markdown="1">
 ✨ **I am actively seeking Summer 2027 research internship opportunities in industry.**
-If you think my interests in NLP, machine learning for health, LLMs, and human-AI interaction could be a good fit for your team, I would love to connect — please feel free to reach out at
+If you think my interests and work could be a good fit for your team, I would love to connect — please feel free to reach out at
 [azhang677@gatech.edu](mailto:azhang677@gatech.edu).
 </div>
 
