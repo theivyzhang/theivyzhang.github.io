@@ -8,7 +8,7 @@ redirect_from:
 ---
 I am a 2nd year CS PhD student in the School of Interactive Computing at<img src="/images/gt-logo.png" alt="Georgia Tech logo" style="height:1.15em; width:auto; vertical-align:-0.19em; margin:0 0.12em 0 0.28em; border-radius:3px;"> Georgia Tech. I am advised by the amazing Professor [Munmun De Choudhury](http://www.munmund.net/index.html) and am a member of the [Social Dynamics and Wellbeing (SocWeb) Lab](https://socweb.cc.gatech.edu/).
 
-Broadly, my research interest lies at the interaction of **Natural Language Processing**, **Generative AI**, **Social Computing** and **Human-AI Interaction**. I build and study AI systems that help people organize, interpret, and evaluate complex human data (e.g. social media and electronic health records). I am particularly interested in how these systems can support human judgment and give people greater agency in their everyday decisions, especially in high-stakes contexts such as healthcare, mental health, and online settings. Ultimately, I aim to make timely, personalized support more accessible through AI that understands the contexts of people’s lives and responds to what matters to them.
+Broadly, my research interest lies at the interaction of **Natural Language Processing**, **Generative AI**, **Social Computing** and **Human-AI Interaction**. I build and study AI systems that help people organize, interpret, and evaluate complex human data (e.g. social media and electronic health records). I am particularly interested in how these systems can support human judgment and give people greater agency in their everyday decision-making process, especially in high-stakes contexts such as healthcare, mental health, and online settings. Ultimately, I aim to make timely, personalized support more accessible through AI that understands the contexts of people’s lives and responds to what matters to them.
 
 Before starting my PhD, I earned my Bachelor's degree in Computer Science (with High Honors) from<img src="/images/dartmouth_logo.png" alt="Dartmouth College logo" style="height:1.15em; width:auto; vertical-align:-0.19em; margin:0 0.12em 0 0.28em; border-radius:3px;">Dartmouth College in 2025. I was fortunate to be advised by Professors [Nicholas Jacobson](https://www.nicholasjacobson.com/) and [Andrew Campbell](https://www.cs.dartmouth.edu/~campbell/), with whom I worked on developing open-source foundation models for wearable movement data and exploring how activity patterns relate to medication use, sleep, and mental health.
 
@@ -263,7 +263,7 @@ html[data-theme="dark"] .pub-toggle button + button { border-left-color: #8b9199
   <div class="pub-body">
     <p class="pub-title">CliniCIRCA: A Modular LLM Framework for Constructing Longitudinal Mental Health Patient Journeys from Raw EHR Narratives</p>
     <p class="pub-authors"><span class="pub-me">Aiwei Ivy Zhang</span>, Nimra Ishfaq, Mohit Chandra, Santiago Alvarez Lesmes, Adam Coscia, Khatiya Chelidze Moon, Xiaohan Ding, Munmun De Choudhury</p>
-    <p class="pub-venue">In submission, 2026</p>
+    <p class="pub-venue">Under Review, 2026</p>
     <div class="pub-links">
       <a class="pub-btn" href="https://arxiv.org/abs/2609.19585"><i class="fas fa-file-lines"></i> Paper</a>
       <a class="pub-btn" href="https://theivyzhang.github.io/CliniCIRCA-website/"><i class="fas fa-globe"></i> Website</a>
